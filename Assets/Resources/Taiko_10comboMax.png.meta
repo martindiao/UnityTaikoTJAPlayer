@@ -69,7 +69,7 @@ TextureImporter:
       213: -3321469629749536719
     second: Taiko_10comboMax_21
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,12 +99,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -120,11 +122,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,7 +141,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -146,7 +153,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Lumin
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -157,6 +165,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -632,6 +641,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Taiko_10comboMax_10: 665123081371527904
+      Taiko_10comboMax_14: -4366445424403742577
+      Taiko_10comboMax_9: 544704125309762819
+      Taiko_10comboMax_18: 448799564265359605
+      Taiko_10comboMax_8: -972897896586715826
+      Taiko_10comboMax_4: 805876715203415831
+      Taiko_10comboMax_19: -8456365867252013466
+      Taiko_10comboMax_5: 240475856328883873
+      Taiko_10comboMax_20: 8203112608568340844
+      Taiko_10comboMax_16: -284667021694977967
+      Taiko_10comboMax_15: 7134492474261900659
+      Taiko_10comboMax_17: 6950467179463765391
+      Taiko_10comboMax_0: -3024425667700681226
+      Taiko_10comboMax_13: 7613974978643325306
+      Taiko_10comboMax_6: -2820736692177356979
+      Taiko_10comboMax_7: 4287623914690525899
+      Taiko_10comboMax_11: -5823786982055290415
+      Taiko_10comboMax_1: 109639162742488670
+      Taiko_10comboMax_3: 779674107955430976
+      Taiko_10comboMax_2: 924742070915346580
+      Taiko_10comboMax_12: 4287645304918005852
+      Taiko_10comboMax_21: -3321469629749536719
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
