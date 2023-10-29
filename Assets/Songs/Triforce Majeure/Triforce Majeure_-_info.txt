@@ -1,0 +1,9 @@
+Title:       Triforce Majeure
+Artist(s):   Disco Dan
+From:        ゼルダの伝説 神々のトライフォース (The Legend Of Zelda: A Link To The Past)
+Charter(s):  nanashi31
+Difficulty:  */*/*/8/*
+Genre:       ゲームミュージック (Game Music)
+BPM:         144.0
+TJADB ID:    10524
+Last Update: 2022-03-10

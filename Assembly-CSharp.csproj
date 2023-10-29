@@ -100,11 +100,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ReorderableList\ReorderableListElement.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Gradient.cs" />
     <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Gradient2.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\VR Extensions\VRInputModule.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
     <Compile Include="Assets\songUI.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\Accordion\Accordion.cs" />
     <Compile Include="Assets\_Scripts\_ExtensionMethod\TaikoStaticExtension.cs" />
@@ -216,9 +216,9 @@
     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\BezierPath.cs" />
     <Compile Include="Assets\_Scripts\_UI\SongDiffSelectorScreenController.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\InputModules\AimerInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectLinker.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Controls\ColorPicker\ColorValues.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectLinker.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CylinderText.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\CardUI\2D Cards\CardPopup2D.cs" />
     <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\DragCorrector.cs" />
@@ -364,6 +364,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\unity-ui-extensions\Resources\Shaders\UIParticleHidden.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Songs\Triforce Majeure\Triforce Majeure_-_info.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
