@@ -192,8 +192,10 @@ public class TaikoGameInstance : MonoBehaviour
     public IEnumerator Test()
     {
         yield return new WaitForSeconds(0);
-        SongLoadingScreen.SetActive(false);
-        Temp.ConstructUI();
+        if (SongLoadingScreen != null)
+            SongLoadingScreen.SetActive(false);
+        if (Temp != null)
+            Temp.ConstructUI();
 
     }
     public void SaveSongDb()

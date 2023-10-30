@@ -98,12 +98,14 @@ public class SongDiffSelectorScreenController : MonoBehaviour
 
         SongName.text = CurrentSong.TitleName;
         CheckForAvailableDif();
-
+        Debug.Log(MainAudioPlayer);
         StartCoroutine(TaikoStaticExtension.LoadAndPlaySong(MainAudioPlayer, CurrentSong));
     }
 
     private void OnEnable()
     {
+        MainAudioPlayer = TaikoStaticExtension.GetMainSongPlayer();
+        TGI = GameObject.FindObjectOfType<TaikoGameInstance>();
         SetupSong();
     }
     public void StartFadeIn(float timeToFade)

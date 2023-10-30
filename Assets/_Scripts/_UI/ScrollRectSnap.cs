@@ -96,8 +96,9 @@ public class ScrollRectSnap : MonoBehaviour
             CurrentSelectedSong = Song[songSelected].gameObject;
             CurrentSelectedSong.GetComponent<songUI>().ExpandUI();
             CurrentSelectedSongIndex = songSelected;
-            StartCoroutine(TaikoStaticExtension.LoadAndPlaySong(MainAudioPlayer, TGI.CurrentSelectedSong));
             TGI.SetSelectedSong(songSelected - 1);
+            Debug.Log(TGI.CurrentSelectedSong.OggPath);
+            StartCoroutine(TaikoStaticExtension.LoadAndPlaySong(MainAudioPlayer, TGI.CurrentSelectedSong));
         }
         
     }
