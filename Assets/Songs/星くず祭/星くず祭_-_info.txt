@@ -1,0 +1,9 @@
+Title:       星くず祭 (The Star Festival)
+Artist(s):   Mario Galaxy Orchestra
+From:        スーパーマリオギャラクシー (Super Mario Galaxy)
+Charter(s):  Megi
+Difficulty:  2/2/2/3/*
+Genre:       ゲームミュージック (Game Music)
+BPM:         138.0
+TJADB ID:    10172
+Last Update: 2021-08-24
